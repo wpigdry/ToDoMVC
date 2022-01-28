@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React • TodoMVC</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            todos
+        </header>
+        <main>
+            <div class="container">
+                <div class="message-wrap">
+                    <div class="message-arrow-container">
+                        <div class="message-arrow-wrap">
+                            <div class="message-arrow"></div>
+                        </div>
+                    </div>
+                    <input
+                        class="message-val"
+                        type="text"
+                        placeholder="what needs to be done?"
+                    >
+                </div>
+                <ul class="message-list">
+                    <!-- <li class="message-list-item">
+                        <div class="message-arrow-wrap">
+                            <div class="message-arrow"></div>
+                        </div>
+                        <div>333</div>
+                    </li> -->
+                </ul>
+                <div id="count-container">
+                    <div class="count-wrap">
+                        <div class="count-left-wrap">
+                            <div class="count-num">0</div>
+                            <div id="num-text">item left</div>
+                        </div>
+                        <div class="count-center-wrap">
+                            <div class="all-btn btn-sty">All</div>
+                            <div class="active-btn btn-sty">Active</div>
+                            <div class="completed-btn btn-sty">Completed</div>
+                        </div>
+                        <div class="count-right-wrap">
+                            <div id="clear-check">
+                                Clear completed
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class='text ${isCheck ? 'check-text' : ''}'>${value}</div> -->
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+<script src='./js/index.js'>
+</script>
+</html>
